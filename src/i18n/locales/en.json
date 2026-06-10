@@ -44,6 +44,19 @@
       "title": "Tech Skills"
     }
   },
+  "projects": {
+    "title": "Projects",
+    "hint": "A selection of things I've built",
+    "viewCode": "View code on GitHub",
+    "viewLive": "View live demo",
+    "items": {
+      "wcDashboard": "App to follow the 2026 World Cup: matches, groups and brackets, Google Calendar sync, and a prediction ranking with friends.",
+      "pokeStats": "Pokémon reference for competitive play: type chart, team and speed comparators, and a team planner with AI analysis.",
+      "leadsApp": "Marketing lead management: CRUD with filters and pagination, stats dashboard, and an AI-generated executive summary.",
+      "nonameLauncher": "Custom Minecraft launcher with Microsoft authentication, per-user modpack distribution, and automatic Java management.",
+      "portfolio": "This very site: a SPA with a curtain effect, draggable experience timeline, and an animated skills constellation."
+    }
+  },
   "social": {
     "github": "GitHub",
     "linkedin": "LinkedIn",
