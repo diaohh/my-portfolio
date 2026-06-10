@@ -39,6 +39,9 @@
         "role": "Frontend Developer",
         "summary": "Scalable frontend solutions with React frameworks and BaaS like Firebase. API integration, refactors and active contribution to technical decisions."
       }
+    },
+    "skills": {
+      "title": "Tech Skills"
     }
   },
   "social": {

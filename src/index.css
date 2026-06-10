@@ -17,6 +17,19 @@
       opacity: 0;
     }
   }
+
+  /* Gentle float for the skills constellation chips. */
+  --animate-drift: drift 6s ease-in-out infinite;
+
+  @keyframes drift {
+    0%,
+    100% {
+      transform: translateY(5px);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+  }
 }
 
 @layer base {

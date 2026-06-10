@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next'
 import * as m from 'motion/react-m'
 import { fadeUp, revealOnView } from '@/lib/motion'
 import { Timeline } from '@/components/Timeline'
+import { SkillsConstellation } from '@/components/SkillsConstellation'
 
 export function Experience() {
   const { t } = useTranslation()
@@ -35,6 +36,19 @@ export function Experience() {
 
         <div className="mt-10">
           <Timeline />
+        </div>
+
+        <div className="mt-24">
+          <m.h3
+            variants={fadeUp}
+            {...revealOnView}
+            className="text-xl font-semibold tracking-tight text-white sm:text-2xl"
+          >
+            {t('experience.skills.title')}
+          </m.h3>
+          <div className="mt-8">
+            <SkillsConstellation />
+          </div>
         </div>
       </div>
     </section>

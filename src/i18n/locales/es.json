@@ -39,6 +39,9 @@
         "role": "Desarrollador Frontend",
         "summary": "Soluciones frontend escalables con frameworks de React y BaaS como Firebase. Integración de APIs, refactors y contribución activa a decisiones técnicas."
       }
+    },
+    "skills": {
+      "title": "Habilidades técnicas"
     }
   },
   "social": {
