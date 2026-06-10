@@ -57,6 +57,25 @@
       "portfolio": "This very site: a SPA with a curtain effect, draggable experience timeline, and an animated skills constellation."
     }
   },
+  "contact": {
+    "eyebrow": "Got something in mind?",
+    "title": "Let's talk",
+    "description": "I'm open to new opportunities, collaborations, or a good conversation about software. Reach out through whichever channel you prefer and I'll get back to you soon.",
+    "email": "Email me",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you@email.com",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project or proposal…",
+      "send": "Send message",
+      "sending": "Sending…",
+      "sent": "Message sent! I'll get back to you soon.",
+      "error": "Something went wrong. Email me directly instead."
+    },
+    "footer": "Designed and built by Diego Vinasco"
+  },
   "social": {
     "github": "GitHub",
     "linkedin": "LinkedIn",
@@ -71,6 +90,5 @@
       "three": "I have a loyal adventure companion named Juanita, my main support while coding!"
     }
   },
-  "comingSoon": "Coming soon...",
   "scroll": "Scroll"
 }

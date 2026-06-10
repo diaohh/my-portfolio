@@ -5,8 +5,8 @@ import { SectionDots } from '@/components/SectionDots'
 import { ScrollIndicator } from '@/components/ScrollIndicator'
 import { Hero } from '@/sections/Hero'
 import { Experience } from '@/sections/Experience'
-import { ComingSoon } from '@/sections/ComingSoon'
-import { PLACEHOLDER_SECTIONS } from '@/lib/sections'
+import { Projects } from '@/sections/Projects'
+import { Contact } from '@/sections/Contact'
 
 export default function App() {
   return (
@@ -18,21 +18,17 @@ export default function App() {
         <Nav />
         <SectionDots />
         <main>
-          <Hero />
-          {/* Dark panel that rises over the sticky hero like a curtain. */}
-          <div className="relative z-10 bg-zinc-950 shadow-[0_-30px_60px_-15px_rgba(0,0,0,0.45)]">
-            {PLACEHOLDER_SECTIONS.map((section) =>
-              section.id === 'experience' ? (
-                <Experience key={section.id} />
-              ) : (
-                <ComingSoon
-                  key={section.id}
-                  id={section.id}
-                  titleKey={section.labelKey}
-                />
-              ),
-            )}
+          {/* Curtain stage: the sticky hero plus the dark panel that rises
+              over it. The wrapper bounds the hero's sticky range and sits
+              above the fixed contact layer (inverse curtain at the end). */}
+          <div className="relative z-10">
+            <Hero />
+            <div className="relative z-10 bg-zinc-950 shadow-[0_-30px_60px_-15px_rgba(0,0,0,0.45),0_30px_60px_-15px_rgba(0,0,0,0.45)]">
+              <Experience />
+              <Projects />
+            </div>
           </div>
+          <Contact />
         </main>
         <ScrollIndicator />
       </MotionConfig>

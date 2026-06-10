@@ -57,6 +57,25 @@
       "portfolio": "Este mismo sitio: SPA con efecto telón, timeline de experiencia arrastrable y constelación de skills animada."
     }
   },
+  "contact": {
+    "eyebrow": "¿Tienes algo en mente?",
+    "title": "Hablemos",
+    "description": "Estoy abierto a nuevas oportunidades, colaboraciones o una buena conversación sobre software. Escríbeme por el medio que prefieras y te respondo pronto.",
+    "email": "Enviarme un correo",
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "email": "Correo",
+      "emailPlaceholder": "tu@correo.com",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntame sobre tu proyecto o propuesta…",
+      "send": "Enviar mensaje",
+      "sending": "Enviando…",
+      "sent": "¡Mensaje enviado! Te responderé pronto.",
+      "error": "No se pudo enviar. Escríbeme directamente al correo."
+    },
+    "footer": "Diseñado y construido por Diego Vinasco"
+  },
   "social": {
     "github": "GitHub",
     "linkedin": "LinkedIn",
@@ -71,6 +90,5 @@
       "three": "¡Tengo una fiel compañera de aventuras llamada Juanita, mi principal soporte para programar!"
     }
   },
-  "comingSoon": "Próximamente...",
   "scroll": "Scroll"
 }

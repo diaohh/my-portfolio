@@ -6,7 +6,8 @@ import { useActiveSection } from '@/lib/useActiveSection'
 export function SectionDots() {
   const { t } = useTranslation()
   const active = useActiveSection(SECTION_IDS)
-  const onDark = active !== 'home'
+  // Home and contact are the light sections (the curtain's two ends).
+  const onDark = active !== 'home' && active !== 'contact'
 
   return (
     <m.nav

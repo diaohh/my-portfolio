@@ -16,9 +16,6 @@ export const SECTIONS: SectionDef[] = [
 
 export const SECTION_IDS = SECTIONS.map((s) => s.id)
 
-// Sections rendered as "Coming soon" placeholders (everything but the hero).
-export const PLACEHOLDER_SECTIONS = SECTIONS.filter((s) => s.id !== 'home')
-
 export function scrollToSection(id: string) {
   // The hero is sticky, so scrollIntoView treats it as already visible and
   // does nothing — scroll to the top of the page instead.

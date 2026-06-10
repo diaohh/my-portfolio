@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { AnimatePresence } from 'motion/react'
 import * as m from 'motion/react-m'
 import { ChevronDown } from 'lucide-react'
-import { PLACEHOLDER_SECTIONS, scrollToSection } from '@/lib/sections'
+import { SECTIONS, scrollToSection } from '@/lib/sections'
 
 export function ScrollIndicator() {
   const { t } = useTranslation()
@@ -22,7 +22,7 @@ export function ScrollIndicator() {
       {visible && (
         <m.button
           type="button"
-          onClick={() => scrollToSection(PLACEHOLDER_SECTIONS[0].id)}
+          onClick={() => scrollToSection(SECTIONS[1].id)}
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0, transition: { delay: 0.8, duration: 0.5 } }}
           exit={{ opacity: 0, y: 10, transition: { duration: 0.25 } }}
