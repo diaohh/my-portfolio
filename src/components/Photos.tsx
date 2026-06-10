@@ -114,20 +114,26 @@ export function Photos() {
               exit={{ opacity: 0 }}
               transition={{ duration: 0.3 }}
               onClick={() => setOpen(false)}
-              className="fixed inset-0 z-[100] flex items-center justify-center bg-zinc-950/70 p-6 backdrop-blur-sm"
+              className="fixed inset-0 z-[100] flex flex-col overflow-y-auto bg-zinc-950/70 p-6 backdrop-blur-sm"
             >
-              <button
-                type="button"
-                onClick={() => setOpen(false)}
-                aria-label={t('photos.close')}
-                className="absolute top-6 right-6 rounded-full border border-white/20 bg-white/10 p-2 text-white transition-colors hover:bg-white/20"
-              >
-                <X className="h-5 w-5" />
-              </button>
+              {/* Zero-height sticky strip: keeps the close button pinned while
+                  the overlay scrolls (`fixed` would resolve against the
+                  overlay itself — backdrop-filter makes it a containing
+                  block — and scroll away with the content). */}
+              <div className="sticky top-0 z-10 flex h-0 justify-end">
+                <button
+                  type="button"
+                  onClick={() => setOpen(false)}
+                  aria-label={t('photos.close')}
+                  className="rounded-full border border-white/20 bg-white/10 p-2 text-white transition-colors hover:bg-white/20"
+                >
+                  <X className="h-5 w-5" />
+                </button>
+              </div>
 
               <ul
                 onClick={(e) => e.stopPropagation()}
-                className="grid w-full max-w-5xl grid-cols-1 gap-10 sm:grid-cols-3"
+                className="m-auto grid w-full max-w-sm grid-cols-1 gap-10 sm:max-w-5xl sm:grid-cols-3"
               >
                 {PHOTOS.map((photo) => (
                   <li key={photo.id} className="group flex flex-col items-center">
@@ -140,13 +146,15 @@ export function Photos() {
                         <img
                           src={photo.src}
                           alt={t(photo.descKey)}
-                          className="h-full w-full object-cover grayscale transition-all duration-500 group-hover:grayscale-0"
+                          className="h-full w-full object-cover transition-all duration-500 lg:grayscale lg:group-hover:grayscale-0"
                         />
                       ) : (
                         <ImageIcon className="h-10 w-10 text-zinc-500/70" />
                       )}
                     </m.div>
-                    <p className="mt-4 max-w-xs text-center text-sm leading-relaxed text-zinc-200 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                    {/* Touch screens have no hover: description and color
+                        are always on below lg. */}
+                    <p className="mt-4 max-w-xs text-center text-sm leading-relaxed text-zinc-200 transition-opacity duration-300 lg:opacity-0 lg:group-hover:opacity-100">
                       {t(photo.descKey)}
                     </p>
                   </li>
