@@ -3,6 +3,7 @@ import * as m from 'motion/react-m'
 import { User, Briefcase, FolderGit2, Mail, type LucideIcon } from 'lucide-react'
 import { SECTIONS, SECTION_IDS, scrollToSection } from '@/lib/sections'
 import { useActiveSection } from '@/lib/useActiveSection'
+import { LanguageSwitcher } from './LanguageSwitcher'
 
 const ICONS: Record<string, LucideIcon> = {
   home: User,
@@ -52,6 +53,12 @@ export function Nav() {
             </a>
           )
         })}
+        {/* On small screens the language toggle joins the navbar pill (the
+            floating switcher would collide with the centered nav). */}
+        <div className="flex items-center sm:hidden">
+          <span aria-hidden className="mx-0.5 h-5 w-px bg-zinc-200" />
+          <LanguageSwitcher variant="inline" />
+        </div>
       </nav>
     </m.header>
   )
