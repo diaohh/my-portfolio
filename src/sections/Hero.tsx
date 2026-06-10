@@ -6,17 +6,7 @@ import { fadeUp, stagger } from '@/lib/motion'
 import { scrollToSection } from '@/lib/sections'
 import { useTypewriter } from '@/lib/useTypewriter'
 import { Photos } from '@/components/Photos'
-import {
-  GithubIcon,
-  LinkedinIcon,
-  InstagramIcon,
-} from '@/components/icons/BrandIcons'
-
-const SOCIALS = [
-  { id: 'github', href: 'https://github.com/diaohh/', Icon: GithubIcon, hover: 'hover:text-zinc-900' },
-  { id: 'linkedin', href: 'https://www.linkedin.com/in/diego-andres-vinasco/', Icon: LinkedinIcon, hover: 'hover:text-[#0A66C2]' },
-  { id: 'instagram', href: 'https://www.instagram.com/diego_vt1/', Icon: InstagramIcon, hover: 'hover:text-[#E1306C]' },
-] as const
+import { SOCIALS } from '@/lib/socials'
 
 export function Hero() {
   const { t } = useTranslation()
