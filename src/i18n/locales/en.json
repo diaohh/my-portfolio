@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "aboutMe": "About me",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Diego Vinasco",
+    "role": "Software Developer",
+    "description": "Systems Engineer and developer with 3+ years of experience, passionate about programming, constant learning, best practices, and coffee ☕",
+    "cv": "Download CV",
+    "cvFile": "/cv/diego-vinasco-en.pdf",
+    "cvName": "Diego Vinasco - Resume.pdf",
+    "contactCta": "Get in touch"
+  },
+  "experience": {
+    "title": "Experience",
+    "hint": "Drag to explore",
+    "items": {
+      "degree": {
+        "role": "Systems and Computer Engineering",
+        "summary": "Bachelor's degree — foundations in software, algorithms and computer systems."
+      },
+      "pragma": {
+        "role": "Frontend Developer",
+        "summary": "E-commerce projects with Next.js, Gatsby and Angular. Supported micro-frontend portals, resolved Salesforce tickets and shipped features for marketing campaigns."
+      },
+      "itagil": {
+        "role": "Development Engineer",
+        "summary": "Full-stack work with .NET and Angular: building services and integrating them with the frontend, plus proofs of concept to validate new tools."
+      },
+      "onlinesat": {
+        "role": "Software Engineer",
+        "summary": "Built and scaled HIPAA-compliant medical software with Next.js and Django, focused on secure, maintainable solutions for regulated environments."
+      },
+      "alternova": {
+        "role": "Frontend Developer",
+        "summary": "Scalable frontend solutions with React frameworks and BaaS like Firebase. API integration, refactors and active contribution to technical decisions."
+      }
+    }
+  },
+  "social": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "instagram": "Instagram"
+  },
+  "photos": {
+    "open": "Get to know me a little more",
+    "close": "Close",
+    "items": {
+      "one": "I love traveling, discovering new cultures and trying local food.",
+      "two": "I'm fairly easygoing, always open to conversation and to sharing moments beyond the screen.",
+      "three": "I have a loyal adventure companion named Juanita, my main support while coding!"
+    }
+  },
+  "comingSoon": "Coming soon...",
+  "scroll": "Scroll"
+}

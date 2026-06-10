@@ -1,0 +1,60 @@
+{
+  "nav": {
+    "aboutMe": "Sobre mí",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Diego Vinasco",
+    "role": "Desarrollador de Software",
+    "description": "Ingeniero de Sistemas y desarrollador con +3 años de experiencia, apasionado por la programación, el aprendizaje constante, las buenas prácticas y el café ☕",
+    "cv": "Descargar CV",
+    "cvFile": "/cv/diego-vinasco-es.pdf",
+    "cvName": "Diego Vinasco - CV.pdf",
+    "contactCta": "Contáctame"
+  },
+  "experience": {
+    "title": "Experiencia",
+    "hint": "Arrastra para explorar",
+    "items": {
+      "degree": {
+        "role": "Ingeniería de Sistemas y Computación",
+        "summary": "Pregrado — fundamentos de software, algoritmos y sistemas computacionales."
+      },
+      "pragma": {
+        "role": "Desarrollador Frontend",
+        "summary": "Proyectos de e-commerce con Next.js, Gatsby y Angular. Soporte a portales micro-frontend, resolución de tickets de Salesforce e implementación de funcionalidades para campañas de marketing."
+      },
+      "itagil": {
+        "role": "Ingeniero de Desarrollo",
+        "summary": "Trabajo full-stack con .NET y Angular: construcción de servicios e integración con el frontend, además de pruebas de concepto para validar nuevas herramientas."
+      },
+      "onlinesat": {
+        "role": "Ingeniero de Software",
+        "summary": "Desarrollo y escalado de software médico conforme a HIPAA con Next.js y Django, enfocado en soluciones seguras y mantenibles para entornos regulados."
+      },
+      "alternova": {
+        "role": "Desarrollador Frontend",
+        "summary": "Soluciones frontend escalables con frameworks de React y BaaS como Firebase. Integración de APIs, refactors y contribución activa a decisiones técnicas."
+      }
+    }
+  },
+  "social": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "instagram": "Instagram"
+  },
+  "photos": {
+    "open": "Conóceme un poco más",
+    "close": "Cerrar",
+    "items": {
+      "one": "Me gusta viajar, conocer nuevas culturas y probar comida local.",
+      "two": "Soy bastante sereno, siempre abierto a la comunicación y a compartir momentos más allá de la pantalla.",
+      "three": "¡Tengo una fiel compañera de aventuras llamada Juanita, mi principal soporte para programar!"
+    }
+  },
+  "comingSoon": "Próximamente...",
+  "scroll": "Scroll"
+}
