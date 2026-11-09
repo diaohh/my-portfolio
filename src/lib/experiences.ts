@@ -15,7 +15,7 @@ export const EXPERIENCES: Experience[] = [
     end: '2022-09',
     kind: 'education',
   },
-  { id: 'pragma', company: 'PRAGMA', start: '2022-07', end: '2023-01', kind: 'work' },
+  { id: 'pragma', company: 'PRAGMA', start: '2022-07', end: '2023-08', kind: 'work' },
   { id: 'itagil', company: 'IT Ágil', start: '2023-08', end: '2024-01', kind: 'work' },
   { id: 'onlinesat', company: 'Online SAT', start: '2024-09', end: '2025-02', kind: 'work' },
   { id: 'alternova', company: 'Alternova', start: '2025-02', end: '2026-02', kind: 'work' },
