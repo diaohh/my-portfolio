@@ -50,11 +50,12 @@
     "viewCode": "Ver código en GitHub",
     "viewLive": "Ver demo",
     "items": {
-      "wcDashboard": "App para seguir el Mundial 2026: partidos, grupos y brackets, sincronización con Google Calendar y ranking de predicciones entre amigos.",
+      "pokeAir": "Batallas multijugador locales en tiempo real: la pantalla grande muestra el combate y los teléfonos son controles privados. Singles y dobles, team builder completo y salas por código QR.",
+      "nonameLauncher": "Launcher de Minecraft de escritorio con OAuth de Microsoft, distribución de modpacks desde Firestore con descargas verificadas por sha256 y gestión automática de Java.",
+      "wcDashboard": "App para seguir el Mundial 2026: partidos, grupos y brackets, sincronización con Google Calendar y ranking de predicciones entre amigos. Arquitectura Feature-Sliced Design.",
+      "calculatorMonorepo": "Monorepo full-stack: una SPA en React que delega todo el cálculo a una API REST en Go. Dockerizado para dev y prod, con tests table-driven y Vitest.",
       "pokeStats": "Referencia Pokémon para juego competitivo: tabla de tipos, comparadores de equipos y velocidad, y planner con análisis por IA.",
-      "leadsApp": "Gestión de leads de marketing: CRUD con filtros y paginación, dashboard de estadísticas y resumen ejecutivo generado con IA.",
-      "nonameLauncher": "Launcher de Minecraft con autenticación de Microsoft, distribución de modpacks por usuario y gestión automática de Java.",
-      "portfolio": "Este mismo sitio: SPA con efecto telón, timeline de experiencia arrastrable y constelación de skills animada."
+      "leadsApp": "Gestión de leads de marketing: CRUD con filtros y paginación, dashboard de estadísticas y resumen ejecutivo generado con IA vía proxy server-side."
     }
   },
   "contact": {

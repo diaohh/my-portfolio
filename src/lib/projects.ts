@@ -12,11 +12,31 @@ export interface Project {
 
 export const PROJECTS: Project[] = [
   {
+    id: 'pokeAir',
+    name: 'Poke-Air',
+    tags: ['Socket.IO', 'Fastify', 'React 19', 'TypeScript', 'Monorepo'],
+    repoUrl: 'https://github.com/diaohh/poke-air',
+    liveUrl: 'https://poke-air.vercel.app',
+  },
+  {
+    id: 'nonameLauncher',
+    name: 'NoName Launcher',
+    tags: ['Electron', 'React 19', 'TypeScript', 'Firebase'],
+    repoUrl: 'https://github.com/diaohh/NoName-Launcher',
+  },
+  {
     id: 'wcDashboard',
     name: 'WC Dashboard',
-    tags: ['React 19', 'TypeScript', 'Firebase', 'TanStack Query'],
+    tags: ['React 19', 'Firebase', 'TanStack Query', 'Feature-Sliced Design'],
     repoUrl: 'https://github.com/diaohh/wc-dashboard',
     liveUrl: 'https://wc-dashboard-ruby.vercel.app',
+  },
+  {
+    id: 'calculatorMonorepo',
+    name: 'Calculator Monorepo',
+    tags: ['Go', 'React 19', 'Docker', 'Vitest'],
+    repoUrl: 'https://github.com/diaohh/calculator-monorepo',
+    liveUrl: 'https://calculator-monorepo-black.vercel.app',
   },
   {
     id: 'pokeStats',
@@ -31,17 +51,5 @@ export const PROJECTS: Project[] = [
     tags: ['Next.js 16', 'Mantine', 'TanStack Query', 'Gemini'],
     repoUrl: 'https://github.com/diaohh/leads-app',
     liveUrl: 'https://leads-app-iota.vercel.app',
-  },
-  {
-    id: 'nonameLauncher',
-    name: 'NoName Launcher',
-    tags: ['Electron', 'React 19', 'Firebase', 'Tailwind v4'],
-    repoUrl: 'https://github.com/diaohh/NoName-Launcher',
-  },
-  {
-    id: 'portfolio',
-    name: 'Portfolio',
-    tags: ['React 19', 'TypeScript', 'Tailwind v4', 'Motion'],
-    repoUrl: 'https://github.com/diaohh/my-portfolio',
   },
 ]
